@@ -128,7 +128,7 @@ hr {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#053740', endColorstr='#99053740', GradientType=0 ); /* IE6-9 */
 }
 .section-title {
-	padding: 25px 0 60px 0;
+	padding: 25px 0 25px 0;
 	text-align: center;
 }
 .intro H1 {
@@ -137,6 +137,16 @@ hr {
 	letter-spacing: 2px;
 	color: rgba(255,255,255,0.9);
 }
+
+.intro p {
+	margin-left: 20px;
+    margin-right: 20px;
+	color: #eee;
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: 400;
+}
+
 .intro .brand {
 	color: #7bc3d1;
 	font-weight: 700;
@@ -505,9 +515,12 @@ header .intro-text {
 	color: #656c6d;
 	text-align: center;
 	padding-top:48px!important;
-	padding-bottom:48px!important;
-	padding-right:48px!important;
-	padding-left:50px;
+	padding-bottom:48px!important;	
+}
+
+#photo h4 {
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .row {
@@ -515,7 +528,7 @@ header .intro-text {
 	display: flex;
 	-ms-flex-wrap: wrap; /* IE10 */
 	flex-wrap: wrap;
-	padding: 0 4px;
+	padding: 0 4px 0px 50px;
   }
   
   /* Create four equal columns that sits next to each other */
